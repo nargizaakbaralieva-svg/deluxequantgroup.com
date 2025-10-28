@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deluxe Quant Group LLC — Quantitative Research & Proprietary Trading</title>
+  <meta name="description" content="Deluxe Quant Group LLC — Quantitative research and proprietary trading firm based in Georgia, USA." />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Deluxe Quant Group LLC" />
+  <meta property="og:description" content="Quantitative research and proprietary trading firm based in Georgia, USA." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://deluxequantgroup.com/" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Simple, dependency-free styles using Tailwind via CDN for rapid clean UI -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: {
+              400: '#D4AF37', // warm gold
+              500: '#C9A227'
+            },
+            ink: '#0F172A' // deep slate/ink
+          },
+          fontFamily: {
+            display: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'Apple Color Emoji', 'Segoe UI Emoji'],
+          },
+          boxShadow: {
+            glow: '0 0 60px rgba(212,175,55,0.15)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data (Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Deluxe Quant Group LLC",
+    "url": "https://deluxequantgroup.com/",
+    "legalName": "Deluxe Quant Group LLC",
+    "description": "Quantitative research and proprietary trading firm based in Georgia, USA.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "GA",
+      "addressCountry": "US"
+    },
+    "email": "info@deluxequantgroup.com"
+  }
+  </script>
+  <style>
+    /* Subtle animated gradient background */
+    .bg-gradient {
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(201,162,39,0.08), transparent 60%),
+                  radial-gradient(800px 400px at 90% 20%, rgba(201,162,39,0.06), transparent 60%),
+                  linear-gradient(180deg, #0b1220 0%, #0b1220 60%, #0e1626 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-100 bg-ink font-display antialiased">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur supports-backdrop-blur:bg-white/5">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3 group">
+        <span class="inline-grid place-items-center w-9 h-9 rounded-full bg-gold-400/15 ring-1 ring-gold-400/30 shadow-glow">
+          <span class="text-gold-400 font-bold">DQ</span>
+        </span>
+        <span class="text-sm tracking-wide text-slate-200 group-hover:text-white transition">Deluxe Quant Group LLC</span>
+      </a>
+      <nav class="hidden sm:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-white text-slate-300">About</a>
+        <a href="#focus" class="hover:text-white text-slate-300">Focus</a>
+        <a href="#contact" class="hover:text-white text-slate-300">Contact</a>
+      </nav>
+      <a href="#contact" class="ml-4 inline-flex items-center rounded-xl border border-gold-400/40 bg-gold-400/10 px-4 py-2 text-sm font-medium text-gold-400 hover:bg-gold-400/20 transition">Get in touch</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="bg-gradient">
+    <section class="max-w-6xl mx-auto px-6 pt-20 pb-24">
+      <div class="grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7">
+          <h1 class="text-3xl sm:text-5xl font-semibold leading-tight">
+            Deluxe Quant Group <span class="text-gold-400">LLC</span>
+          </h1>
+          <p class="mt-4 text-lg sm:text-xl text-slate-300">
+            Quantitative research and proprietary trading firm based in Georgia, USA.
+          </p>
+          <p class="mt-5 text-slate-400 max-w-2xl">
+            We build systematic frameworks and discretionary overlays across futures, options, and digital assets, with a focus on disciplined risk management and research-driven execution.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#contact" class="rounded-2xl bg-gold-400/90 hover:bg-gold-400 text-ink font-semibold px-5 py-3 shadow-glow transition">Contact us</a>
+            <a href="#about" class="rounded-2xl border border-slate-700 hover:border-slate-500 px-5 py-3 text-slate-200">Learn more</a>
+          </div>
+          <ul class="mt-8 text-sm text-slate-400 space-y-1">
+            <li>• Research-first. Risk-aware. Technology-enabled.</li>
+            <li>• Georgia, USA</li>
+          </ul>
+        </div>
+        <div class="lg:col-span-5">
+          <div class="relative rounded-3xl border border-slate-800 bg-slate-900/40 p-6 shadow-xl">
+            <div class="absolute inset-0 rounded-3xl pointer-events-none shadow-glow"></div>
+            <h2 class="text-base font-semibold text-slate-200">At a glance</h2>
+            <dl class="mt-4 grid grid-cols-2 gap-4 text-sm">
+              <div class="rounded-xl bg-slate-900/60 border border-slate-800 p-4">
+                <dt class="text-slate-400">Focus</dt>
+                <dd class="mt-1 text-slate-100">Quant Research & Prop Trading</dd>
+              </div>
+              <div class="rounded-xl bg-slate-900/60 border border-slate-800 p-4">
+                <dt class="text-slate-400">Location</dt>
+                <dd class="mt-1 text-slate-100">Georgia, USA</dd>
+              </div>
+              <div class="rounded-xl bg-slate-900/60 border border-slate-800 p-4">
+                <dt class="text-slate-400">Instruments</dt>
+                <dd class="mt-1 text-slate-100">Futures, Options, ETFs</dd>
+              </div>
+              <div class="rounded-xl bg-slate-900/60 border border-slate-800 p-4">
+                <dt class="text-slate-400">Contact</dt>
+                <dd class="mt-1"><a class="text-gold-400 hover:underline" href="mailto:info@deluxequantgroup.com">info@deluxequantgroup.com</a></dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- About -->
+  <section id="about" class="py-20 border-y border-slate-800 bg-slate-950/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-6">
+          <h2 class="text-2xl sm:text-3xl font-semibold">Who we are</h2>
+          <p class="mt-4 text-slate-300 leading-relaxed">
+            Deluxe Quant Group LLC develops systematic and discretionary strategies rooted in statistical research, robust risk controls, and continuous iteration. We combine modern data analysis with trader expertise to pursue consistent, risk-adjusted outcomes.
+          </p>
+        </div>
+        <div class="lg:col-span-6">
+          <ul class="space-y-3 text-slate-300">
+            <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-gold-400"></span><span>Research pipelines and backtesting to validate edge before deployment.</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-gold-400"></span><span>Multi-timeframe execution frameworks for futures and options.</span></li>
+            <li class="flex items-start gap-3"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-gold-400"></span><span>Risk-first portfolio construction with disciplined position sizing.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus -->
+  <section id="focus" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl sm:text-3xl font-semibold">Focus</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <article class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <h3 class="font-semibold text-slate-100">Quantitative Research</h3>
+          <p class="mt-2 text-sm text-slate-300">Signal discovery, validation, and monitoring using robust statistics and walk-forward testing.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <h3 class="font-semibold text-slate-100">Proprietary Trading</h3>
+          <p class="mt-2 text-sm text-slate-300">Systematic strategies with discretionary overlays across futures, options, and ETFs.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+          <h3 class="font-semibold text-slate-100">Risk Management</h3>
+          <p class="mt-2 text-sm text-slate-300">Downside protection, scenario analysis, and risk budgeting embedded in all workflows.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-slate-950/40 border-y border-slate-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-7">
+          <h2 class="text-2xl sm:text-3xl font-semibold">Get in touch</h2>
+          <p class="mt-3 text-slate-300">For inquiries, please email us and we will respond promptly.</p>
+          <a href="mailto:info@deluxequantgroup.com" class="mt-6 inline-flex items-center rounded-2xl bg-gold-400/90 hover:bg-gold-400 text-ink font-semibold px-5 py-3 shadow-glow transition">info@deluxequantgroup.com</a>
+        </div>
+        <aside class="lg:col-span-5 text-sm text-slate-400">
+          <p class="leading-relaxed">
+            Nothing on this site is investment advice. Trading involves risk, including the possible loss of principal. Past performance does not guarantee future results.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-400">
+      <p>© <span id="year"></span> Deluxe Quant Group LLC. All rights reserved.</p>
+      <div class="flex items-center gap-6">
+        <a href="mailto:info@deluxequantgroup.com" class="hover:text-slate-200">info@deluxequantgroup.com</a>
+        <a href="#home" class="hover:text-slate-200">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
